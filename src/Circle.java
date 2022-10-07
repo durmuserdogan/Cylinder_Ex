@@ -1,5 +1,5 @@
 public class Circle {
-    private double radius;
+    public double radius;
 
     public Circle(double radius) {
         if( this.radius<0){
