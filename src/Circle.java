@@ -1,11 +1,12 @@
 public class Circle {
-    public double radius;
+    private double radius;
 
     public Circle(double radius) {
-        if( this.radius<0){
-           radius=0;
-        }
         this.radius = radius;
+        if( this.radius<0){
+           this.radius=0;
+        }
+
     }
 
     public double getRadius() {
